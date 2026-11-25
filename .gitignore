@@ -1,0 +1,45 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Editor & OS settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Machine Learning & Large Weights (YOLO / PyTorch)
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Web uploads (simpan folder uploads tanpa foto sementara)
+web_monitoring/uploads/*
+!web_monitoring/uploads/.gitkeep

@@ -1,12 +1,11 @@
-# Computer Vision & AI
-opencv-python
-ultralytics
-numpy
+# Computer Vision (OpenCV)
+opencv-python>=4.8.0
+numpy>=1.24.0
 
-# Web Monitoring
-flask
-requests
+# Web Monitoring & API
+flask>=2.3.0
+requests>=2.31.0
 
 # Control & Pixhawk Communication
-pymavlink
-pygame-ce
+pymavlink>=2.4.40
+pygame-ce>=2.4.0
